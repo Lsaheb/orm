@@ -1,4 +1,10 @@
 package net.joastbg.sampleapp.entities;
 
-public class AssuranceHabitat {
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="ASSURANCE")
+public class AssuranceHabitat  extends  Assurance {
 }
